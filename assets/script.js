@@ -19,7 +19,7 @@ const slides = [
 
 let currentIndex = 0;
 function slider(index) {
-	const banner_image = document.getElementById("banner-image");
+	const banner_image = document.getElementById("banner-img");
 	const tag_line_element = document.getElementById("tag-line");
 	const dots = document.querySelectorAll(".dot");
 
